@@ -3,11 +3,11 @@ Name: timidity++
 Version: 2.13.2
 Release: 4%{?dist}
 Group: Applications/Multimedia
-Source: http://downloads.sourceforge.net/timidity/TiMidity++-%{version}.tar.bz2
-Source1: http://archive.cs.umbc.edu/pub/midia/instruments.tar.bz2
+Source: TiMidity++-%{version}.tar.bz2
+Source1: instruments.tar.bz2
 Source2: timidity.cfg
-Source3: http://www.stardate.bc.ca/eawpatches/eawpats/britepno.pat.bz2
-Source4: http://www.stardate.bc.ca/eawpatches/eawpats/pistol.pat.bz2
+Source3: britepno.pat.bz2
+Source4: pistol.pat.bz2
 Source5: fedora-timidity.desktop
 URL: http://timidity.sourceforge.net
 Patch: TiMidity++-2.13.0-redhat.patch
